@@ -43,11 +43,8 @@ Initialization | Manipulation   | Maths
 ## Initialization:
 ```java
 public static void main(String[] args){
-        // Making a template for a 2x4 matrix
-        double[][] dimensions = new double[2][4];
-
         // Creating our matrix with no values
-        Matrix myMatrix = new Matrix(dimensions);
+        Matrix myMatrix = new Matrix(2,4);
 
         // Initializing our matrix
         // Setting the matrix values to a random double between 1 and 10
@@ -73,11 +70,8 @@ Constant:
 ## Manipulation:
 ```java
 public static void main(String[] args){
-        // Making a template for a 5x6 matrix
-        double[][] dimensions = new double[2][4];
-
-        // Creating our matrix with no values
-        Matrix myMatrix = new Matrix(dimensions);
+       // Creating our matrix with no values
+        Matrix myMatrix = new Matrix(2,4);
 
         // Initializing our matrix
         myMatrix.setConstant(4);
@@ -111,14 +105,11 @@ Double Array:
 ```Java
  public static void main(String[] args){
 
-        // Creating our first matrix and setting each value to 4
-        double[][] firstTemplate = new double[2][4];
-        Matrix firstMatrix = new Matrix(firstTemplate);
+        Matrix firstMatrix = new Matrix(2,4);
         firstMatrix.setConstant(4);
 
         // Creating a second matrix and setting each value to a random double between 1 and 5
-        double[][] secondTemplate = new double[4][2];
-        Matrix secondMatrix = new Matrix(secondTemplate);
+        Matrix secondMatrix = new Matrix(4,2);
         secondMatrix.setRandom(1,5);
 
         // Using matrix multiplication
@@ -157,9 +148,4 @@ product of the rows in the first array multiplied by the columns in the second.
 
 # Contributing
 Feel free to contribute, clean up some code or suggest some new features. It will always be appreciated.
-# Upcoming features
-- Adding the option to define `Matrix m = new Matrix(2,4)` instead of:
-```java
-double[][] dimens = new double[2][4];
-Matrix m = new Matrix(dimens);
-```
+
