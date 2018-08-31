@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OpenMatrixLib:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/OpenMatrixLib_jar</output-path>
+    <root id="archive" name="OpenMatrixLib.jar">
+      <element id="module-output" name="OpenMatrixLib" />
+    </root>
+  </artifact>
+</component>
