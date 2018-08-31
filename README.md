@@ -133,8 +133,7 @@ Output Matrix:
 [65.98648071289062, 41.967533111572266]]
 ```
 If you are not familiar with matrix multiplication this may seem like an odd result, but this the correct output. It will make a matrix
-with the dimensions of the first matrix's rows x the second matrix's columns and then each element in the resulting matrix is the summed 
-product of the rows in the first array multiplied by the columns in the second.
+with the dimensions of the first matrix's rows by the second matrix's columns and then each element in the resulting matrix is the summed product of the rows in the first array multiplied by the columns in the second.
 
 ## Other Mathematical Functions
 - matdiv() : divides two matrices by each other
