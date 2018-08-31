@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OpenMatrixLib_Quickstart.iml" filepath="$PROJECT_DIR$/OpenMatrixLib_Quickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OpenMatrixLib_QuickStart.iml" filepath="$PROJECT_DIR$/OpenMatrixLib_QuickStart.iml" />
     </modules>
   </component>
 </project>

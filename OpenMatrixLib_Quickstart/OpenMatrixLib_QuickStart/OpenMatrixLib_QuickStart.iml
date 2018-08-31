@@ -10,7 +10,7 @@
     <orderEntry type="module-library">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../OpenMatrixLib.jar!/" />
+          <root url="jar://$MODULE_DIR$/../../OpenMatrixLib.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

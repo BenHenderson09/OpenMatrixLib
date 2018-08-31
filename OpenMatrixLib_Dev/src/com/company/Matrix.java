@@ -13,6 +13,16 @@ public class Matrix{
     private MatrixManipulation   matManipulation;
     private MatrixMaths          matMaths;
 
+    Matrix(int rows, int columns){
+        this.matrix = new double[rows][columns];
+        this.rows = rows;
+        this.columns = columns;
+
+        this.matInitialization = new MatrixInitialization(this);
+        this.matManipulation   = new MatrixManipulation(this);
+        this.matMaths          = new MatrixMaths(this);
+    }
+
     Matrix(double[][] matrix){
         this.matrix = matrix;
         this.rows = matrix.length;
