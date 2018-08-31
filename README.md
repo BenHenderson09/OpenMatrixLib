@@ -148,5 +148,5 @@ product of the rows in the first array multiplied by the columns in the second.
 
 # Contributing
 Feel free to contribute, clean up some code or suggest some new features. It will always be appreciated. To start developing
-just use the OpenMatrixLib_dev folder, thanks.
+just use the OpenMatrixLib_Dev folder, thanks.
 
