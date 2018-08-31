@@ -3,8 +3,8 @@
 OpenMatrixLib is an open-source library created for development with matrices, OML is made for Java.
 
   - Matrix operations such as matrix-multiplication, transpose, mean average and more
-  - Brilliant for use with data-science and specifically neural networks
-  - Completely customizable with easy instructions for develoment
+  - Good for use with data-science and specifically neural networks
+  - Completely customizable
 
 # Setup
 
