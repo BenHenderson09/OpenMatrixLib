@@ -43,7 +43,7 @@ Initialization | Manipulation   | Maths
 ## Initialization:
 ```java
 public static void main(String[] args){
-        // Creating our matrix with no values
+        // Creating our matrix with no values, (2 rows, 4 columns)
         Matrix myMatrix = new Matrix(2,4);
 
         // Initializing our matrix
