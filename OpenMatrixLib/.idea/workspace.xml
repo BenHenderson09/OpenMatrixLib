@@ -9,7 +9,31 @@
     <bookmark url="file://$PROJECT_DIR$/src/com/company/Matrix.java" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a77091fc-07d0-4311-a2a5-793a6b997e7c" name="Default Changelist" comment="" />
+    <list default="true" id="a77091fc-07d0-4311-a2a5-793a6b997e7c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/artifacts/OpenMatrixLib_jar/OpenMatrixLib.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Matrix.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixInitialization.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixManipulation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixMaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/OpenMatrixLib_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/OpenMatrixLib_jar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/OpenMatrixLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMatrixLib.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Matrix.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MatrixInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MatrixInitialization.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MatrixManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MatrixManipulation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/MatrixMaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/MatrixMaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/MatrixMaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/MatrixMaths.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Quickstart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Quickstart/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Quickstart/OpenMatrixLib_QuickStart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Quickstart/OpenMatrixLib_QuickStart/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -107,14 +131,32 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-1359132507">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="2050885199">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Matrix.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="576">
-              <caret line="24" selection-start-line="24" selection-end-line="24" />
+            <state relative-caret-position="264">
+              <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -143,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/MatrixMaths.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3888">
-              <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
+            <state relative-caret-position="384">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -158,6 +200,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -165,9 +210,9 @@
         <option value="$PROJECT_DIR$/src/com/company/MatrixFunctions.java" />
         <option value="$PROJECT_DIR$/src/com/company/MatrixInitialization.java" />
         <option value="$PROJECT_DIR$/src/com/company/MatrixManipulation.java" />
-        <option value="$PROJECT_DIR$/src/com/company/MatrixMaths.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
         <option value="$PROJECT_DIR$/src/com/company/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/com/company/MatrixMaths.java" />
       </list>
     </option>
   </component>
@@ -177,14 +222,13 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,6 +240,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -257,7 +303,7 @@
       <window_info id="UI Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.2553305" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.26066098" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.324295" />
@@ -267,7 +313,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3286334" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -314,6 +360,9 @@
     <entry file="file://$PROJECT_DIR$/src/com/company/MatrixFunctionsInterface.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/MatrixFunctions.java" />
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java" />
+    <entry file="file://$PROJECT_DIR$/out/production/OpenMatrixLib/com/company/Matrix.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MatrixInitialization.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
@@ -330,24 +379,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/MatrixMaths.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3888">
-          <caret line="162" column="27" selection-start-line="162" selection-start-column="27" selection-end-line="162" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/OpenMatrixLib/com/company/Matrix.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#2403#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="384">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        <state relative-caret-position="264">
+          <caret line="11" column="51" lean-forward="true" selection-start-line="11" selection-start-column="51" selection-end-line="11" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

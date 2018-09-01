@@ -19,9 +19,10 @@ public class MatrixMaths {
     Matrix matmul(Matrix newMat){
 
         // Check matrix dimensions
-        if (rows != newMat.columns){
+        if (rows != newMat.columns && columns != newMat.rows){
             throw new ArithmeticException("The provided matrix dimensions are incompatible.");
         }
+
 
         double[][] temp = new double[rows][newMat.columns];
 

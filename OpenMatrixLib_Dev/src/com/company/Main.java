@@ -2,6 +2,6 @@ package com.company;
 
 public class Main {
     public static void main(String[] args){
-        // Test new features here
+        // Test features here
     }
 }
