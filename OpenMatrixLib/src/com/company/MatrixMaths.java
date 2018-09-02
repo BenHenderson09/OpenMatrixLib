@@ -69,6 +69,23 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
+    Matrix multiply(Matrix newMat){
+        // Checking matrix dimensions
+        if (rows != newMat.rows || columns != newMat.columns){
+            throw new ArithmeticException("The matrix dimensions are incompatible for multiplication, they must have the same dimensions.");
+        }
+
+        double[][] temp = new double[rows][columns];
+
+        // Adding each element of a matrix to the same indexed element of the other matrix
+        for (int i = 0; i < rows; i++){
+            for (int j = 0; j < columns; j++){
+                temp[i][j] = matrix[i][j] * newMat.matrix[i][j];
+            }
+        }
+
+        return new Matrix(temp);
+    }
 
     Matrix add(Matrix newMat){
         // Checking matrix dimensions

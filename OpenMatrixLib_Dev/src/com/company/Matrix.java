@@ -57,6 +57,7 @@ public class Matrix{
         return matMaths.matdiv(newMat);
     }
 
+    Matrix multiply(Matrix newMat) { return matMaths.multiply(newMat); }
 
     Matrix add(Matrix newMat){
         return matMaths.add(newMat);

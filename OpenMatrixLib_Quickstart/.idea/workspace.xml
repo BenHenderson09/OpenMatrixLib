@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1c7f99-3756-4a5c-ace5-044d532b6463" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/artifacts/OpenMatrixLib_jar/OpenMatrixLib.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Matrix.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixInitialization.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixManipulation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixMaths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/artifacts/OpenMatrixLib_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/artifacts/OpenMatrixLib_jar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/OpenMatrixLib.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/OpenMatrixLib.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/Matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixInitialization.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixInitialization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixManipulation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixManipulation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixMaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib/src/com/company/MatrixMaths.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Matrix.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/Matrix.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixMaths.class" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/out/production/OpenMatrixLib/com/company/MatrixMaths.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/Matrix.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/MatrixMaths.java" beforeDir="false" afterPath="$PROJECT_DIR$/../OpenMatrixLib_Dev/src/com/company/MatrixMaths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/OpenMatrixLib_QuickStart/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/OpenMatrixLib_QuickStart/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,6 +66,15 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="83235263">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf />
@@ -99,9 +94,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="Scope">
         <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
@@ -139,6 +131,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
