@@ -46,8 +46,7 @@ public static void main(String[] args){
         // Creating our matrix with no values, (2 rows, 4 columns)
         Matrix myMatrix = new Matrix(2,4);
 
-        // Initializing our matrix
-        // Setting the matrix values to a random double between 1 and 10
+        // Initializing the matrix values to a random double between 1 and 10
         myMatrix.setRandom(1,10);
         myMatrix.print();
 
