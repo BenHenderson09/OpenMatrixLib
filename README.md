@@ -32,7 +32,7 @@ Go to:
 You should now notice that there is a new library in the "External Libraries" section of your project structure titled "OpenMatrixLib.jar".
 To use this in your project just put the following line of code anywhere in your main class:
 ```
-import com.whatever.Matrix;
+import com.company.Matrix;
 ```
 # Usage
 There are three main categories that OML provides:
