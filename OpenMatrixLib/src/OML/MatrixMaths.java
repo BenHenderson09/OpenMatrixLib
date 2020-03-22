@@ -1,4 +1,4 @@
-package com.company;
+package OML;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ public class MatrixMaths {
     private int rows;
     private int columns;
 
-    MatrixMaths(Matrix mat){
+    public MatrixMaths(Matrix mat){
         this.matrix = mat.matrix;
         this.rows = mat.rows;
         this.columns = mat.columns;
@@ -16,12 +16,13 @@ public class MatrixMaths {
 
     // --- Basic Matrix Mathematical Functions (*, / , +, -) ---
 
-    Matrix matmul(Matrix newMat){
+    public Matrix matmul(Matrix newMat){
 
         // Check matrix dimensions
         if (rows != newMat.columns && columns != newMat.rows){
             throw new ArithmeticException("The provided matrix dimensions are incompatible.");
         }
+
 
         double[][] temp = new double[rows][newMat.columns];
 
@@ -50,7 +51,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix matdiv(Matrix newMat){
+    public Matrix matdiv(Matrix newMat){
         // Checking matrix dimensions
         if (rows != newMat.rows || columns != newMat.columns){
             throw new ArithmeticException("The matrix dimensions are incompatible for division, they must have the same dimensions.");
@@ -68,7 +69,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix multiply(Matrix newMat){
+    public Matrix multiply(Matrix newMat){
         // Checking matrix dimensions
         if (rows != newMat.rows || columns != newMat.columns){
             throw new ArithmeticException("The matrix dimensions are incompatible for multiplication, they must have the same dimensions.");
@@ -86,7 +87,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix add(Matrix newMat){
+    public Matrix add(Matrix newMat){
         // Checking matrix dimensions
         if (rows != newMat.rows || columns != newMat.columns){
             throw new ArithmeticException("The matrix dimensions are incompatible for addition, they must have the same dimensions.");
@@ -104,7 +105,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix subtract(Matrix newMat){
+    public Matrix subtract(Matrix newMat){
         // Checking matrix dimensions
         if (rows != newMat.rows || columns != newMat.columns){
             throw new ArithmeticException("The matrix dimensions are incompatible for subtraction, they must have the same dimensions.");
@@ -124,7 +125,7 @@ public class MatrixMaths {
 
     // --- Constant matrix functions ([][]*i, [][]/i, etc ) ---
 
-    Matrix multiplyConstant(double constant){
+    public Matrix multiplyConstant(double constant){
         double[][] temp = new double[rows][columns];
 
         for (int i = 0; i < rows; i++){
@@ -135,7 +136,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix divideConstant(double constant){
+    public Matrix divideConstant(double constant){
         double[][] temp = new double[rows][columns];
 
         for (int i = 0; i < rows; i++){
@@ -146,7 +147,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix addConstant(double constant){
+    public Matrix addConstant(double constant){
         double[][] temp = new double[rows][columns];
 
         for (int i = 0; i < rows; i++){
@@ -157,7 +158,7 @@ public class MatrixMaths {
         return new Matrix(temp);
     }
 
-    Matrix subtractConstant(double constant){
+    public Matrix subtractConstant(double constant){
         double[][] temp = new double[rows][columns];
 
         for (int i = 0; i < rows; i++){
@@ -169,7 +170,8 @@ public class MatrixMaths {
     }
 
     // --- Averages ---
-    double[] mean(){
+    // --- Averages ---
+    public double[] mean(){
         double[] temp = new double[rows];
 
         for (int i = 0; i < rows; i++){

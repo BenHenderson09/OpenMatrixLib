@@ -1,4 +1,4 @@
-package com.company;
+package OML;
 
 import java.util.Random;
 
@@ -8,7 +8,7 @@ public class MatrixManipulation {
     private int rows;
     private int columns;
 
-    MatrixManipulation(Matrix mat){
+    public MatrixManipulation(Matrix mat){
         this.matrix = mat.matrix;
         this.rows = mat.rows;
         this.columns = mat.columns;
@@ -17,7 +17,7 @@ public class MatrixManipulation {
     // --- Functions ---
 
     // This code reverses the dimensions of the matrix. [3][4] becomes [4][3]
-    Matrix transpose(){
+    public Matrix transpose(){
         double[][] temp = new double[columns][rows];
         for (int i = 0; i < rows; i++){
             for (int j = 0; j < columns; j++){
@@ -28,7 +28,7 @@ public class MatrixManipulation {
     }
 
     // Simply converts matrix objects a 2 dimensional float array
-    double[][] convertToArr() {
+    public double[][] convertToArr() {
         return matrix;
     }
 }

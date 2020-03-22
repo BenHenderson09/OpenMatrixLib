@@ -1,9 +1,9 @@
-package com.company;
+package OML;
 
 import java.util.Arrays;
 import java.util.Random;
 
-public class Matrix{
+public class Matrix {
     Random rand = new Random();
     double[][] matrix;
     int rows;
@@ -13,7 +13,7 @@ public class Matrix{
     private MatrixManipulation   matManipulation;
     private MatrixMaths          matMaths;
 
-    Matrix(int rows, int columns){
+    public Matrix(int rows, int columns){
         this.matrix = new double[rows][columns];
         this.rows = rows;
         this.columns = columns;
@@ -23,7 +23,7 @@ public class Matrix{
         this.matMaths          = new MatrixMaths(this);
     }
 
-    Matrix(double[][] matrix){
+    public Matrix(double[][] matrix){
         this.matrix = matrix;
         this.rows = matrix.length;
         this.columns = matrix[0].length;
@@ -38,66 +38,66 @@ public class Matrix{
     // --- Initializing Matrix Values ---
 
     // Sets each entry in matrix to a random number between the defined min and max limits
-    void setRandom(double min, double max){
+    public void setRandom(double min, double max){
         matInitialization.setRandom(min, max);
     }
 
     // Sets each entry in the matrix to a defined value
-    void setConstant(double constant){
+    public void setConstant(double constant){
         matInitialization.setConstant(constant);
     }
 
     // --- Apply Mathematical Functions to Matrix Values ---
 
-    Matrix matmul(Matrix newMat){
+    public Matrix matmul(Matrix newMat){
         return matMaths.matmul(newMat);
     }
 
-    Matrix matdiv(Matrix newMat){
+    public Matrix matdiv(Matrix newMat){
         return matMaths.matdiv(newMat);
     }
 
-    Matrix multiply(Matrix newMat) { return matMaths.multiply(newMat); }
+    public Matrix multiply(Matrix newMat) { return matMaths.multiply(newMat); }
 
-    Matrix add(Matrix newMat){
+    public Matrix add(Matrix newMat){
         return matMaths.add(newMat);
     }
 
-    Matrix subtract(Matrix newMat){
+    public Matrix subtract(Matrix newMat){
         return matMaths.subtract(newMat);
     }
 
-    Matrix multiplyConstant(double constant){
+    public Matrix multiplyConstant(double constant){
         return matMaths.multiplyConstant(constant);
     }
 
-    Matrix divideConstant(double constant){
+    public Matrix divideConstant(double constant){
         return matMaths.divideConstant(constant);
     }
 
-    Matrix subtractConstant(double constant){
+    public Matrix subtractConstant(double constant){
         return matMaths.subtractConstant(constant);
     }
 
-    Matrix addConstant(double constant){
+    public Matrix addConstant(double constant){
         return matMaths.addConstant(constant);
     }
 
-    double[] mean(){
+    public double[] mean(){
         return matMaths.mean();
     }
     // --- Manipulate Matrix Values ---
 
-    Matrix transpose(){
+    public Matrix transpose(){
         return matManipulation.transpose();
     }
 
-    double[][] convertToArr(){
+    public double[][] convertToArr(){
         return matManipulation.convertToArr();
     }
 
     // Prints the matrix
-    void print(){
+    public void print(){
         String output = Arrays.deepToString(matrix);
         System.out.println(output);
     }
