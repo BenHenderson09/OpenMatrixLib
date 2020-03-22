@@ -10,36 +10,21 @@ OpenMatrixLib is an open-source library created for development with matrices, O
 
 Java is required, an IDE such as IntelliJ or Eclipse is highly reccomended.
 
-### Options:
-- Use the QuickStart project that comes with the repo
-- Import the .Jar file yourself and get the library setup
-
-### QuickStart:
-Simply download the repository, go into your IDE of choice and choose to open a project. Then navigate to the location that you downloaded
-the repo and open the folder "OpenMatrixLib_Quickstart". Inside this folder a project is setup with a console, main method and the library
-is already imported. There is some sample code in the main method to get you started, but there will be a more in-depth guide further into
-this README.
-
 ### Importing the .Jar
-If you want to import the library yourself, this can be done differently depending on your project setup. You can do this through a 
-command line or an IDE. Either way, you will need to add it as an external library. The following example is how you can do it with 
-IntelliJ:
+This can be done differently depending on your project setup. You can do this through a 
+command line or an IDE. Either way, you will need to add it as an external library.
+The following example is how you can do it with IntelliJ:
 
 Go to:
->File -> Project Structure -> Modules -> Dependencies tab -> plus symbol -> JARS or directories -> the location of the .jar file
+>File -> Project Structure -> Modules -> Dependencies tab ->
+ plus symbol -> JARS or directories -> the location of the .jar file
 >you downloaded.
 
 You should now notice that there is a new library in the "External Libraries" section of your project structure titled "OpenMatrixLib.jar".
 To use this in your project just put the following line of code anywhere in your main class:
 ```
-import com.company.Matrix;
+import OML.Matrix;
 ```
-# Usage
-There are three main categories that OML provides:
-
-Initialization | Manipulation   | Maths
--------------- | -------------- |------
-
 ## Initialization:
 ```java
 public static void main(String[] args){
@@ -144,7 +129,4 @@ with the dimensions of the first matrix's rows by the second matrix's columns an
 - subtractConstant() : subtracts each value in a matrix by a constant
 - mean() : returns a 1-dimensional array with the mean-average of each row.
 
-# Contributing
-Feel free to contribute, clean up some code or suggest some new features. It will always be appreciated. To start developing
-just use the OpenMatrixLib_Dev folder, thanks.
 
